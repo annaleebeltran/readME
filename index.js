@@ -82,7 +82,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquierer.prompt(questions)
         .then((data) => {
-            writeToFile('README.md', generateMarkdown(data));
+            writeToFile('READMENEW.md', generateMarkdown(data));
         });
 
 }

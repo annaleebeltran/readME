@@ -18,7 +18,7 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   if (license) {
     // Replace this URL with the actual URL of the license
-    return "https://example.com/license";
+    return "";
   } else {
     return "";
   }
@@ -27,7 +27,7 @@ function renderLicenseLink(license) {
 // Creadted a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  const licenseSectionReadme = /## License([\s\S]*?)##/;
+  const licenseSectionReadme = /#/;
   const match = license.match(licenseSectionReadme);
   if (match && match[1]) {
     return match[1];
@@ -38,7 +38,9 @@ function renderLicenseSection(license) {
 
 // Created a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# Project Title ${data.title}
+  return `
+  # Project Title 
+  ${data.title} ${renderLicenseBadge(data.license)}
 
 # Description
 ${data.description}
@@ -47,7 +49,7 @@ ${data.description}
 * [Installation](#-Installation)
 * [Usage](#-Usage)
 * [License](#-Installation)
-* [Contributing](#-Contributing)
+* [Contributors](#-Contributors)
 * [Tests](#-Tests)
 * [Questions](#-Contact-Information)
     
@@ -61,7 +63,7 @@ ${data.usage}
 ${data.license}
 
 
-# Contributing 
+# Contributors
 ${data.contributing}
 
 # Tests

@@ -1,33 +1,35 @@
-# Project Title Annalee
+
+  # Project Title 
+  Testing [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 # Description
-Testing
+I am using this as a test
 
 # Table of Contents 
 * [Installation](#-Installation)
 * [Usage](#-Usage)
 * [License](#-Installation)
-* [Contributing](#-Contributing)
+* [Contributors](#-Contributors)
 * [Tests](#-Tests)
 * [Questions](#-Contact-Information)
     
 # Installation
-To do this
+Type node index.js to run file
 
 # Usage
-Do it
+Make sure to open termial in the right file to run file
 
 # License 
-Apache-2.0
+GPL-3.0
 
 
-# Contributing 
-Me and you
+# Contributors
+Annalee
 
 # Tests
-2
+N/A
 
 # Contact Information 
-* GitHub Username: annalee
-* Contact Email: annna@gmil.com
+* GitHub Username: annaleebeltran
+* Contact Email: annalee.beltranusaf@gmail.com
 

@@ -1,9 +1,9 @@
 
   # Project Title 
-  Testing [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  Testing [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 # Description
-I am using this as a test
+This is a test 
 
 # Table of Contents 
 * [Installation](#-Installation)
@@ -14,22 +14,22 @@ I am using this as a test
 * [Questions](#-Contact-Information)
     
 # Installation
-Type node index.js to run file
+Please use node index.js to run file
 
 # Usage
-Make sure to open termial in the right file to run file
+Make sure to open the terminal to the right file to run it
 
 # License 
-GPL-3.0
+Apache-2.0
 
 
 # Contributors
 Annalee
 
 # Tests
-N/A
+n/A
 
 # Contact Information 
-* GitHub Username: annaleebeltran
+* GitHub Username: annalee.beltran
 * Contact Email: annalee.beltranusaf@gmail.com
 

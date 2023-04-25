@@ -73,7 +73,7 @@ function writeToFile(fileName, data) {
         if (err) {
             console.log(err);
         }
-        console.log('Success!');
+        console.log('Successfully created a READMENEW.md file!');
     });
 
 }
